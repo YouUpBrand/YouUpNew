@@ -25,8 +25,8 @@
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/buas-square.svg" width="40" alt="Breda University of Applied Sciences">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/YouUp Small.svg" width="40" alt="Breda University of Applied Sciences">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,23 +34,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                UX Patterns
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
-                <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
-                <li><a class="dropdown-item active" aria-current="page" href="cards.html">Cards</a></li>
-              </ul>
-            </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
+              <a class="nav-link active" href="cards.html">Our Team</a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="hero.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="carousel.html">Locations</a>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="corporate.html">Corporate</a>
             </li>
@@ -60,37 +58,18 @@
     </nav>
     <!-- End of navigation bar -->
 
-    <section class="container my-4">
-      <div class="border-start border-primary border-5 p-2 bg-primary bg-opacity-10 rounded">
-        <p>This is an example that uses two features of Bootstrap:</p>
-        <ul>
-          <li>
-            <a href="https://getbootstrap.com/docs/5.1/layout/grid/" target="_blank">The responsive grid</a>
-          </li>
-          <li>
-            <a href="https://getbootstrap.com/docs/5.1/components/card/" target="_blank">Cards</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- A grid with cards
-      Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/
-      Learn about cards at: https://getbootstrap.com/docs/5.1/components/card/
-    -->
     <main class="container my-4">
       <div class="row g-3 justify-content-evenly">
 
         <!-- Card #1 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/KawiHeadShot.png" alt="KawiHeadShot">
             <div class="card-body">
-              <h5 class="card-title">Card #1</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <h5 class="card-title fw-bold">Kawi Saleh (co-founder)</h5>
+              <p class="card-text">
+                Kawi Saleh is a 22-year old second-year Creative Business student at Breda University of Applied Sciences who specializes in videography, photography and web design. Saleh also creates new concepts in relations to commercialising/advertising as well as video edits on different platforms such as YouTube and Instagram. In addition to scriptwriting, Kawi also organises professional photoshoots and projects as she runs an account associated to filmmaking. Kawi grew up in London, United Kingdom, and has gained knowledge in working in diverse environments as a result. Saleh aspires to become a Creative Director in her own tech firm that focuses on commercialising for big companies such as Nike and Adidas.
+                </p>
             </div>
           </div>
         </div>
@@ -98,13 +77,12 @@
         <!-- Card #2 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/LeilaHeadShot.png" alt="LeilaHeadShot">
             <div class="card-body">
-              <h5 class="card-title">Card #2</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <h5 class="card-title fw-bold">Leila Phiri (co-founder)</h5>
+              <p class="card-text">
+                Leila Phiri is a highly driven and passionate individual with a background in media management and business administration. She has a proven track record of successfully managing confidential information and coordinating engaging projects, such as organizing fun activities for students during breaks and creating content for prominent social media influencers and jewelry brands. Ms. Phiri is deeply committed to sustainability and actively seeks ways to reduce waste by creating her own clothes with sustainable fabrics and engaging in recycling efforts. Her dedication to excellence extends to her academic pursuits as she is currently pursuing a degree in Creative Business at Breda University of Applied Sciences, with plans to pursue a master's degree in Business Psychology. With her diverse skill set and unwavering commitment to sustainability, Ms. Phiri is poised to make a significant impact in the field of business management.
+                </p>
             </div>
           </div>
         </div>
@@ -112,13 +90,10 @@
         <!-- Card #3 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/LuukHeadShot.png" alt="Placeholder Image">
             <div class="card-body">
-              <h5 class="card-title">Card #3</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <h5 class="card-title fw-bold">Luuk Kornelisse (co-founder)</h5>
+              <p class="card-text">Luuk Kornelisse is a second-year Creative Business student at Breda University of Applied Sciences. He is a graduate of Grafisch Lyceum Rotterdam, where he studied IT systems and devices. His passion lies in music, videography, and graphic design. He has a year of experience in the Dutch media industry taking on an internship at NEP The Netherlands. Where he worked as an encoding specialist, hosting webinars for established companies. Keep an out for his upcoming projects.</p>
             </div>
           </div>
         </div>
@@ -126,41 +101,21 @@
         <!-- Card #4 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/MarcusHeadShot.png" alt="Placeholder Image">
             <div class="card-body">
-              <h5 class="card-title">Card #4</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <h5 class="card-title fw-bold">Marcus Mac Donald (co-founder)</h5>
+              <p class="card-text">Marcus Mac Donald is an Audiovisual Designer as he graduated Mediacollege in Amsterdam in 2017. He has gained experience in multiple facets in the creation of moving pictures and digital content. His experience shows in his ability to operate the Adobe CC suite, the Microsoft Office suite and several other programs to a satisfactory degree. Before his graduation he has worked with companies like SPEC and NewBe TV for the creation of content for famous Dutch celebrities and Influencers like Ali B, Bilal Wahib, Qucee, Stepherd & Skinto and many more. Currently he is busy getting his Creative Business degree at Breda University of Applied Sciences. In the future he would like to be creative director of his own creations in the media industry.</p>
             </div>
           </div>
         </div>
 
         <!-- Card #5 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
+        <div class="col-sm-6 col-lg-5 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/NoortjeHeadShot.png" alt="Placeholder Image">
             <div class="card-body">
-              <h5 class="card-title">Card #5</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card #6 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #6</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <h5 class="card-title fw-bold">Noortje de Jong (co-founder)</h5>
+              <p class="card-text">Another team member is Noortje. She is an 18-year-old girl and she is a second year creative business student at Breda University of Applied Sciences. She loves music and radio and is frequently out in the forest with her horse. Marketing is one of the aspects of media that speaks to her, preferably combined with some radio! Talking is something that she loves so it is no surprise she also has her own radio show on HUB radio.</p>
             </div>
           </div>
         </div>
@@ -175,32 +130,17 @@
     <footer class="shadow-lg mt-auto py-4 bg-body">
       <div class="container d-flex justify-content-between align-items-center">
         <p>
-          © 2020&ndash;2021 &mdash; Breda University of Applied Sciences
+          © 2020&ndash;2021 &mdash; YouUp Inc.
         </p>
         <ul class="list-unstyled d-flex align-items-center opacity-75">
           <li>
-            <a href="https://www.facebook.com/bredauniversityas" target="_blank">
+            <a href="https://www.facebook.com/profile.php?id=100090911655749" target="_blank">
               <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/school/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/linkedin.svg" alt="Follow us on LinkedIn" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/bredauas" target="_blank">
-              <img class="m-2" src="images/twitter.svg" alt="Follow us on Twitter" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/BredaUniversityofAppliedSciences" target="_blank">
+            <a href="https://www.youtube.com/@YouUpOfficial" target="_blank">
               <img class="m-2" src="images/youtube.svg" alt="Follow us on YouTube" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
             </a>
           </li>
         </ul>

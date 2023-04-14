@@ -1,24 +1,32 @@
 /* Importing a Google Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600&display=swap');
 
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	font-family: 'Schibsted Grotesk', sans-serif;
+	background-color: #f0C9B9;
 }
 
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	font-family: 'Schibsted Grotesk', sans-serif;
+	background-color: #C91716;
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #F0C9B9;
+	background-color: #D97143;
+}
+
+/* Changing the background color for the footer */
+
+footer {
+	background-color: #D97143;
 }
 
 /* Effect on social media buttons */
@@ -30,6 +38,37 @@ footer a:hover {
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
+	color: #ac3c3c;
 	font-weight: bold;
+}
+
+.tg{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+.tg td{
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	font-size:14px;
+  	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+}
+
+.tg th{
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	font-size:14px;
+  	font-weight:normal;
+	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+}
+
+.tg .tg-0lax{
+	text-align:left;
+	vertical-align:top
 }
